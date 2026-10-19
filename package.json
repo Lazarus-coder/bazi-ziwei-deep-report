@@ -1,0 +1,20 @@
+{
+  "name": "bazi-ziwei-deep-report",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "八字·紫微融合深度报告生成器：出生信息 + 真太阳时校正 -> 双引擎排盘（iztro 紫微 + lunar-javascript 八字）-> 融合数据 -> 17 章深度文案 -> HTML -> Chrome PDF",
+  "scripts": {
+    "data": "node scripts/build-fused-report-data.mjs",
+    "render": "node render/render-report.mjs",
+    "check": "node scripts/check-repetition.mjs"
+  },
+  "dependencies": {
+    "iztro": "2.5.0",
+    "lunar-javascript": "^1.7.5"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}

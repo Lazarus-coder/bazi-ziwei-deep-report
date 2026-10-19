@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>双盘 · 八字 × 紫微 融合深度报告生成器</title>
+<meta name="description" content="八字 × 紫微 双系统融合命理报告生成器：双引擎排盘、真太阳时校正、双盘互证、量化质检，一键生成 22-30 页 A4 深度报告。开源 Agent Skill。">
+<style>
+:root{
+  --paper:#FAF7F1; --ink:#2A2520; --body:#4A4540; --muted:#8A837A;
+  --wine:#6A2E33; --gold:#A98746; --line:#E9DFCC; --card:#FFFFFF; --soft:#F5EFE1;
+  --serif:"Songti SC","STSong","SimSun","Noto Serif CJK SC",serif;
+  --sans:"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans CJK SC",sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  background:var(--paper); color:var(--body); font-family:var(--sans);
+  font-size:16px; line-height:1.9;
+  background-image:radial-gradient(circle at 20% 0%, rgba(169,135,70,.06), transparent 40%),
+                   radial-gradient(circle at 90% 10%, rgba(106,46,51,.05), transparent 45%);
+}
+.wrap{max-width:1080px;margin:0 auto;padding:0 24px}
+h1,h2,h3,.serif{font-family:var(--serif);color:var(--ink);letter-spacing:.02em}
+a{color:var(--wine);text-decoration:none}
+a:hover{opacity:.85}
+
+/* nav */
+nav{
+  position:sticky;top:0;z-index:50;background:rgba(250,247,241,.88);
+  backdrop-filter:blur(10px);border-bottom:1px solid var(--line);
+}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:62px}
+.brand{display:flex;align-items:center;gap:10px;font-family:var(--serif);font-weight:700;color:var(--ink);font-size:18px}
+.brand .mk{color:var(--gold);font-size:15px}
+.navlinks{display:flex;gap:26px;font-size:14.5px}
+.navlinks a{color:var(--body)}
+.navlinks a:hover{color:var(--wine)}
+.ghbtn{border:1px solid var(--line);border-radius:999px;padding:6px 16px;background:#fff;font-size:14px;color:var(--ink)!important}
+@media (max-width:760px){.navlinks a:not(.ghbtn){display:none}}
+
+/* hero */
+.hero{padding:84px 0 70px;overflow:hidden}
+.hero .grid{display:grid;grid-template-columns:1.05fr .95fr;gap:56px;align-items:center}
+@media (max-width:920px){.hero .grid{grid-template-columns:1fr;gap:40px}}
+.eyebrow{display:inline-block;font-size:13px;letter-spacing:.18em;color:var(--gold);border:1px solid var(--line);border-radius:999px;padding:5px 14px;margin-bottom:26px;background:#fff}
+.hero h1{font-size:clamp(30px,4.6vw,46px);line-height:1.5;font-weight:700}
+.hero h1 em{font-style:normal;color:var(--wine)}
+.hero .sub{margin:22px 0 30px;color:var(--body);font-size:17px;max-width:34em}
+.hero .sub b{color:var(--ink)}
+.ctas{display:flex;gap:14px;flex-wrap:wrap}
+.btn{border-radius:10px;padding:12px 26px;font-size:15.5px;transition:.25s;display:inline-block}
+.btn.primary{background:var(--wine);color:#FBF7EE;box-shadow:0 10px 24px -12px rgba(106,46,51,.55)}
+.btn.primary:hover{transform:translateY(-2px)}
+.btn.ghost{border:1px solid var(--line);background:#fff;color:var(--ink)}
+.btn.ghost:hover{border-color:var(--gold)}
+.hero .meta{margin-top:26px;font-size:13.5px;color:var(--muted);letter-spacing:.04em}
+.hero .meta span{white-space:nowrap}
+.hero .meta i{color:var(--gold);font-style:normal;margin:0 8px}
+
+/* 书页视觉 */
+.books{position:relative;height:520px}
+@media (max-width:920px){.books{height:420px}}
+.books img{
+  position:absolute;width:62%;border-radius:6px;background:#fff;
+  box-shadow:0 30px 60px -30px rgba(42,37,32,.45), 0 0 0 1px var(--line);
+}
+.books .b1{left:2%;top:0;z-index:2}
+.books .b2{right:0;top:12%;width:56%;transform:rotate(3deg);z-index:1;opacity:.96}
+
+/* sections */
+section{padding:74px 0}
+section .head{text-align:center;margin-bottom:52px}
+section .head .orn{color:var(--gold);font-size:13px;letter-spacing:.5em;margin-bottom:14px}
+section .head h2{font-size:clamp(24px,3vw,32px);font-weight:700}
+section .head p{margin-top:12px;color:var(--muted);font-size:15px}
+
+/* features */
+.feats{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+@media (max-width:920px){.feats{grid-template-columns:1fr 1fr}}
+@media (max-width:600px){.feats{grid-template-columns:1fr}}
+.card{
+  background:var(--card);border:1px solid var(--line);border-radius:14px;padding:28px 26px;
+  transition:.3s;
+}
+.card:hover{transform:translateY(-4px);box-shadow:0 24px 44px -30px rgba(42,37,32,.35);border-color:#DCCB9F}
+.card .ic{font-size:20px;color:var(--gold);margin-bottom:14px}
+.card h3{font-size:17.5px;margin-bottom:10px;font-weight:700}
+.card p{font-size:14.5px;color:var(--body)}
+.card b{color:var(--wine)}
+
+/* gallery */
+.gal{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;align-items:start}
+@media (max-width:920px){.gal{grid-template-columns:1fr 1fr}}
+@media (max-width:560px){.gal{grid-template-columns:1fr}}
+.gal figure{text-align:center}
+.gal img{width:100%;border-radius:6px;box-shadow:0 22px 44px -26px rgba(42,37,32,.4),0 0 0 1px var(--line);transition:.3s;background:#fff}
+.gal figure:hover img{transform:translateY(-6px)}
+.gal figcaption{margin-top:14px;font-size:13.5px;color:var(--muted)}
+.gal figcaption b{color:var(--ink);font-family:var(--serif)}
+
+/* flow */
+.flow{display:grid;grid-template-columns:repeat(4,1fr);gap:0;position:relative}
+@media (max-width:920px){.flow{grid-template-columns:1fr 1fr;gap:36px 0}}
+.step{padding:0 22px;position:relative;text-align:center}
+.step .no{
+  width:44px;height:44px;border-radius:50%;margin:0 auto 18px;display:flex;align-items:center;justify-content:center;
+  font-family:var(--serif);font-size:18px;color:var(--wine);background:#fff;border:1px solid var(--gold);
+  box-shadow:0 8px 18px -12px rgba(169,135,70,.6);
+}
+.step h3{font-size:16.5px;margin-bottom:8px}
+.step p{font-size:14px;color:var(--muted)}
+.step:not(:last-child)::after{
+  content:"";position:absolute;top:22px;right:-2px;width:calc(100% - 44px);height:1px;
+  background:linear-gradient(90deg,var(--gold),transparent);opacity:.5;left:auto;
+}
+@media (max-width:920px){.step::after{display:none}}
+
+/* install */
+.term{
+  background:#2A2520;border-radius:12px;padding:22px 26px;margin:18px auto;max-width:760px;
+  font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:13.5px;line-height:2;color:#EDE6DA;
+  box-shadow:0 26px 48px -30px rgba(42,37,32,.6);
+}
+.term .c{color:#A98746}
+.term .d{color:#8A837A}
+.install .hint{text-align:center;color:var(--muted);font-size:13.5px;margin-top:6px}
+
+/* principles */
+.prin{border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:var(--soft)}
+.prin .in{display:grid;grid-template-columns:repeat(4,1fr);gap:26px;padding:44px 0}
+@media (max-width:860px){.prin .in{grid-template-columns:1fr 1fr}}
+.prin h4{font-family:var(--serif);color:var(--wine);font-size:16px;margin-bottom:8px}
+.prin p{font-size:13.8px;color:var(--body)}
+
+/* faq */
+.faq details{background:#fff;border:1px solid var(--line);border-radius:12px;margin-bottom:14px;overflow:hidden}
+.faq summary{cursor:pointer;list-style:none;padding:18px 24px;font-family:var(--serif);font-weight:700;color:var(--ink);font-size:16px;display:flex;justify-content:space-between;align-items:center}
+.faq summary::after{content:"＋";color:var(--gold);font-weight:400}
+.faq details[open] summary::after{content:"－"}
+.faq .a{padding:0 24px 20px;color:var(--body);font-size:14.8px}
+
+/* footer */
+footer{border-top:1px solid var(--line);padding:46px 0 40px;text-align:center;color:var(--muted);font-size:13.5px}
+footer .brand{justify-content:center;margin-bottom:14px}
+footer .row{margin-top:8px}
+footer a{color:var(--wine)}
+
+/* reveal（渐进增强：无 JS 时全部可见） */
+.rev{transition:opacity .8s ease,transform .8s ease}
+.rev.pre{opacity:0;transform:translateY(16px)}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <div class="brand"><span class="mk">❖</span> 双盘 · 文研报告</div>
+    <div class="navlinks">
+      <a href="#features">特性</a>
+      <a href="#gallery">样例</a>
+      <a href="#flow">流程</a>
+      <a href="#install">安装</a>
+      <a href="#faq">FAQ</a>
+      <a class="ghbtn" href="https://github.com/Lazarus-coder/bazi-ziwei-deep-report">GitHub ↗</a>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <section class="hero">
+    <div class="wrap grid">
+      <div>
+        <span class="eyebrow">AGENT SKILL · 八字 × 紫微</span>
+        <h1>从出生数据，到一本<br>可收藏的<em>命理研报</em></h1>
+        <p class="sub">双引擎排盘 · <b>双盘互证</b> · 量化质检 · 一键生成 <b>22-30 页 A4 深度报告</b>。<br>把「排盘、分析、成稿、排版」四件事，交给一条完整的开源管线。</p>
+        <div class="ctas">
+          <a class="btn primary" href="assets/demo-report.pdf">下载样例报告（PDF）</a>
+          <a class="btn ghost" href="https://github.com/Lazarus-coder/bazi-ziwei-deep-report">查看源码</a>
+        </div>
+        <p class="meta"><span>iztro × lunar-javascript</span><i>❖</i><span>真太阳时校正</span><i>❖</i><span>MIT 开源</span></p>
+      </div>
+      <div class="books rev">
+        <img class="b1" src="assets/cover.jpg" alt="报告封面">
+        <img class="b2" src="assets/cross.jpg" alt="双盘互证页">
+      </div>
+    </div>
+  </section>
+
+  <section id="features">
+    <div class="wrap">
+      <div class="head rev">
+        <div class="orn">❖ ❖ ❖</div>
+        <h2>为什么是「双盘」</h2>
+        <p>单系统的圆，总有缺口；两套系统并排推演，才看得见共识与分歧。</p>
+      </div>
+      <div class="feats">
+        <div class="card rev"><div class="ic">❖</div><h3>双引擎排盘</h3><p>紫微用 <b>iztro</b>、八字用 <b>lunar-javascript</b>：四柱十神、藏干纳音、神煞、刑冲合害、精确起运的大运序列，一份数据全带齐。</p></div>
+        <div class="card rev"><div class="ic">❖</div><h3>真太阳时校正</h3><p>经度修正叠加均时差，跨日界自动回退日期，晚子时按通行口径排盘——<b>西部出生不再卡在时辰边界上翻船</b>。</p></div>
+        <div class="card rev"><div class="ic">❖</div><h3>双盘互证</h3><p>专章把两套系统对才干、财富、事业、婚姻、体质的结论并排放：<b>同向升置信，分歧取严处理</b>，不硬拗任何一家。</p></div>
+        <div class="card rev"><div class="ic">❖</div><h3>量化质检</h3><p>双引擎交叉自校验 + 跨章去重器（5-gram 重合率与重复长句检测）：<b>关键数据零臆造，冗余无所遁形</b>。</p></div>
+        <div class="card rev"><div class="ic">❖</div><h3>十六章节框架</h3><p>命局总论、飞星四化、大运流年、七大领域（紫微主笔 + 八字侧写）、双盘互证、<b>八十流年时间轴</b>。</p></div>
+        <div class="card rev"><div class="ic">❖</div><h3>出片级排版</h3><p>暖纸色设计系统（<b>#FAF7F1 / #6A2E33 / #A98746</b>），A4 全书分页，封面到祝词完整闭环，打印即可收藏。</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <div class="wrap">
+      <div class="head rev">
+        <div class="orn">❖ ❖ ❖</div>
+        <h2>样例内页</h2>
+        <p>以下页面来自演示报告（合成出生数据），点开大图可见完整排盘信息与文案风格。</p>
+      </div>
+      <div class="gal">
+        <figure class="rev"><a href="assets/demo-report.pdf"><img src="assets/cover.jpg" alt="封面"></a><figcaption><b>封面 · 排盘信息</b><br>真太阳时与四柱一览</figcaption></figure>
+        <figure class="rev"><a href="assets/demo-report.pdf"><img src="assets/pillars.jpg" alt="四柱组件"></a><figcaption><b>四柱 · 十神组件</b><br>藏干、纳音、旬空全表</figcaption></figure>
+        <figure class="rev"><a href="assets/demo-report.pdf"><img src="assets/cross.jpg" alt="双盘互证"></a><figcaption><b>双盘互证</b><br>一致与分歧逐项列出</figcaption></figure>
+        <figure class="rev"><a href="assets/demo-report.pdf"><img src="assets/timeline.jpg" alt="时间轴"></a><figcaption><b>时间轴</b><br>大限 × 大运双轴并列</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <section id="flow">
+    <div class="wrap">
+      <div class="head rev">
+        <div class="orn">❖ ❖ ❖</div>
+        <h2>四步成书</h2>
+        <p>在支持 Agent Skills 的环境里，一句「出一份融合报告」即可走完全程。</p>
+      </div>
+      <div class="flow">
+        <div class="step rev"><div class="no">一</div><h3>输入出生数据</h3><p>公历生日、时刻、性别、出生地——一行 JSON。</p></div>
+        <div class="step rev"><div class="no">二</div><h3>双引擎融合计算</h3><p>真太阳时校正 → 双盘排盘 → 互证锚点，全量落盘为唯一数据源。</p></div>
+        <div class="step rev"><div class="no">三</div><h3>深度文案与互证</h3><p>十六章节长文撰写，两盘视角分工，去重器把关。</p></div>
+        <div class="step rev"><div class="no">四</div><h3>一键出 PDF</h3><p>暖纸色排版渲染为 A4 全书，可直接打印收藏。</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="install" class="install">
+    <div class="wrap">
+      <div class="head rev">
+        <div class="orn">❖ ❖ ❖</div>
+        <h2>安装与使用</h2>
+        <p>开源免费（MIT）。需要 Node ≥ 18 与本机 Chrome。</p>
+      </div>
+      <div class="term rev">
+        <div><span class="d"># 方式一：skills CLI（skills.sh 索引后）</span></div>
+        <div><span class="c">npx skills add</span> Lazarus-coder/bazi-ziwei-deep-report -g -a qoder</div>
+        <div style="height:10px"></div>
+        <div><span class="d"># 方式二：克隆到技能目录</span></div>
+        <div><span class="c">git clone</span> https://github.com/Lazarus-coder/bazi-ziwei-deep-report.git</div>
+        <div><span class="c">cd</span> bazi-ziwei-deep-report &amp;&amp; <span class="c">npm install</span></div>
+      </div>
+      <p class="hint rev">完整命令与内容框架见仓库 SKILL.md / README.md</p>
+    </div>
+  </section>
+
+  <section class="prin">
+    <div class="wrap in">
+      <div class="rev"><h4>数据诚实</h4><p>每个星曜、宫位、干支都出自程序排盘与双引擎交叉自校验；AI 只做解释，不做臆造。</p></div>
+      <div class="rev"><h4>内容深度优先</h4><p>每章有唯一主人，一个结论只深讲一次；总结只收束不重播，去重器量化把关。</p></div>
+      <div class="rev"><h4>精度诚实</h4><p>到「大限 / 小限 / 流年 / 大运（步）」为止，不伪造流月流日级断言。</p></div>
+      <div class="rev"><h4>吉凶并陈</h4><p>只给能量主题与风险敞口——趋避的主动权，永远在命主本人手中。</p></div>
+    </div>
+  </section>
+
+  <section id="faq">
+    <div class="wrap" style="max-width:820px">
+      <div class="head rev">
+        <div class="orn">❖ ❖ ❖</div>
+        <h2>常见问题</h2>
+      </div>
+      <div class="faq rev">
+        <details><summary>这是一个在线服务吗？</summary><div class="a">不是。本页仅为产品介绍页，不提供任何在线服务；报告全部在你本机由 Agent 与本地脚本生成，出生数据不出机器。</div></details>
+        <details><summary>排盘会不会不准？</summary><div class="a">排盘由成熟开源引擎完成并经双引擎交叉自校验；含真太阳时校正与跨日处理。唯一前提是：出生时刻与出生地尽量准确。</div></details>
+        <details><summary>准到什么粒度？</summary><div class="a">大限、小限、流年（年）与大运（步），并标注多系统共振的关键年。不伪造「某月某日」级别的断言——那是超出数据支撑范围的表演。</div></details>
+        <details><summary>免费吗？可以商用吗？</summary><div class="a">代码以 MIT 协议开源，自用免费；二次分发请保留许可与免责声明。报告内容为传统文化研究参考，不构成任何决策依据。</div></details>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="brand"><span class="mk">❖</span> 双盘 · 八字紫微融合报告生成器</div>
+    <div class="row">本站为产品介绍页，不含真实在线服务。</div>
+    <div class="row">仅供传统文化研究、自我观察与娱乐参考，不构成医疗 / 投资 / 法律或任何重大决策依据。</div>
+    <div class="row"><a href="https://github.com/Lazarus-coder/bazi-ziwei-deep-report">GitHub</a> · MIT License © 2026 Lazarus-coder</div>
+  </div>
+</footer>
+
+<script>
+const els = document.querySelectorAll('.rev');
+els.forEach((el) => el.classList.add('pre'));
+const io = new IntersectionObserver((es) => {
+  es.forEach((e) => { if (e.isIntersecting) { e.target.classList.remove('pre'); io.unobserve(e.target); } });
+}, { threshold: 0.12 });
+els.forEach((el) => io.observe(el));
+</script>
+</body>
+</html>

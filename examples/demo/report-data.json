@@ -1,0 +1,2487 @@
+{
+ "generatedAt": "2026-10-19T06:42:23.398Z",
+ "input": {
+  "solar_date": "2026-10-19",
+  "birth_time": "10:00",
+  "gender": "男",
+  "city": "上海"
+ },
+ "trueSolar": {
+  "clock": "2026-10-19 10:00",
+  "corrected": "2026-10-19 10:21",
+  "correctedDate": "2026-10-19",
+  "dateShifted": false,
+  "dateShiftNote": null,
+  "deltaMinutes": 21.53,
+  "equationOfTimeMin": 15.64,
+  "longitude": 121.472644,
+  "longitudeSource": "city",
+  "cityMatched": "上海市",
+  "stdMeridian": 120,
+  "timeIndex": 5,
+  "timeZhi": "巳",
+  "shichen": "巳时（真太阳 10:21）"
+ },
+ "birth": {
+  "solar": "2026-10-19",
+  "lunar": "二〇二六年九月初十",
+  "lunarDisplay": "丙午年九月初十日巳时",
+  "gender": "男",
+  "zodiac": "马",
+  "sign": "天秤座",
+  "timeRange": "09:00~11:00"
+ },
+ "pillars": {
+  "chinese": "丙午 戊戌 丙寅 癸巳"
+ },
+ "chart": {
+  "fiveElements": "水二局",
+  "decadalStartAge": 2,
+  "soulPalace": {
+   "branch": "巳",
+   "stars": "天机·平",
+   "minorText": "文昌、禄存",
+   "adjectiveText": "八座、天贵、天巫、天官、空亡、破碎、天刑"
+  },
+  "bodyPalace": {
+   "branch": "卯",
+   "stars": "太阳·庙、天梁·庙",
+   "isSoulPalace": false
+  },
+  "soulStar": "武曲",
+  "bodyStar": "火星",
+  "laiyin": {
+   "palace": "田宅",
+   "branch": "申",
+   "stem": "丙"
+  },
+  "direction": "阳男顺行",
+  "yearStem": "丙",
+  "yearPillar": "丙午",
+  "doujunBranch": "酉",
+  "soulPalaceStarsDetail": [
+   {
+    "name": "天机",
+    "brightness": "平",
+    "mutagen": "权"
+   }
+  ]
+ },
+ "coverRows": [
+  [
+   "性别",
+   "男",
+   "五行局",
+   "水二局（起运虚2岁）"
+  ],
+  [
+   "公历",
+   "2026-10-19 10:00",
+   "真太阳时",
+   "2026-10-19 10:21（巳时）"
+  ],
+  [
+   "农历",
+   "丙午年九月初十日巳时",
+   "地理经度",
+   "东经 121.472644°（上海市）"
+  ],
+  [
+   "四柱（节气）",
+   "丙午 戊戌 丙寅 癸巳",
+   "四柱（非节气）",
+   "丙午 戊戌 丙寅 癸巳"
+  ],
+  [
+   "命宫",
+   "巳（天机·平）",
+   "身宫",
+   "卯（太阳·庙、天梁·庙）"
+  ],
+  [
+   "命主",
+   "武曲",
+   "身主",
+   "火星"
+  ],
+  [
+   "来因宫",
+   "田宅（申）",
+   "大限行向",
+   "阳男顺行"
+  ],
+  [
+   "校验码",
+   "9F5B1",
+   "子年斗君",
+   "酉"
+  ]
+ ],
+ "bazi": {
+  "pillars": {
+   "year": "丙午",
+   "month": "戊戌",
+   "day": "丙寅",
+   "time": "癸巳"
+  },
+  "dayMaster": "丙",
+  "pillarsTable": [
+   {
+    "pos": "年柱",
+    "gan": "丙",
+    "ganShishen": "比肩",
+    "zhi": "午",
+    "zhiWx": "火",
+    "hide": [
+     {
+      "gan": "丁",
+      "wx": "火",
+      "shishen": "劫财"
+     },
+     {
+      "gan": "己",
+      "wx": "土",
+      "shishen": "伤官"
+     }
+    ],
+    "nayin": "天河水",
+    "kong": "寅卯"
+   },
+   {
+    "pos": "月柱",
+    "gan": "戊",
+    "ganShishen": "食神",
+    "zhi": "戌",
+    "zhiWx": "土",
+    "hide": [
+     {
+      "gan": "戊",
+      "wx": "土",
+      "shishen": "食神"
+     },
+     {
+      "gan": "辛",
+      "wx": "金",
+      "shishen": "正财"
+     },
+     {
+      "gan": "丁",
+      "wx": "火",
+      "shishen": "劫财"
+     }
+    ],
+    "nayin": "平地木",
+    "kong": "辰巳"
+   },
+   {
+    "pos": "日柱",
+    "gan": "丙",
+    "ganShishen": "日主",
+    "zhi": "寅",
+    "zhiWx": "木",
+    "hide": [
+     {
+      "gan": "甲",
+      "wx": "木",
+      "shishen": "偏印"
+     },
+     {
+      "gan": "丙",
+      "wx": "火",
+      "shishen": "比肩"
+     },
+     {
+      "gan": "戊",
+      "wx": "土",
+      "shishen": "食神"
+     }
+    ],
+    "nayin": "炉中火",
+    "kong": "戌亥"
+   },
+   {
+    "pos": "时柱",
+    "gan": "癸",
+    "ganShishen": "正官",
+    "zhi": "巳",
+    "zhiWx": "火",
+    "hide": [
+     {
+      "gan": "丙",
+      "wx": "火",
+      "shishen": "比肩"
+     },
+     {
+      "gan": "庚",
+      "wx": "金",
+      "shishen": "偏财"
+     },
+     {
+      "gan": "戊",
+      "wx": "土",
+      "shishen": "食神"
+     }
+    ],
+    "nayin": "长流水",
+    "kong": "午未"
+   }
+  ],
+  "wuxing": {
+   "gan": {
+    "金": 0,
+    "木": 0,
+    "水": 1,
+    "火": 2,
+    "土": 1
+   },
+   "zhiBenqi": {
+    "金": 0,
+    "木": 1,
+    "水": 0,
+    "火": 2,
+    "土": 1
+   },
+   "hidden": {
+    "金": 2,
+    "木": 1,
+    "水": 0,
+    "火": 4,
+    "土": 4
+   }
+  },
+  "kongwang": {
+   "day": "戌亥",
+   "year": "寅卯",
+   "month": "辰巳",
+   "time": "午未"
+  },
+  "taiyuan": "己丑",
+  "minggong": "庚寅",
+  "shengong": "壬辰",
+  "shensha": [
+   {
+    "name": "天乙贵人",
+    "by": "日干丙",
+    "target": "亥酉",
+    "hit": []
+   },
+   {
+    "name": "文昌贵人",
+    "by": "日干丙",
+    "target": "申",
+    "hit": []
+   },
+   {
+    "name": "禄神",
+    "by": "日干丙",
+    "target": "巳",
+    "hit": [
+     "时柱"
+    ]
+   },
+   {
+    "name": "羊刃",
+    "by": "日干丙",
+    "target": "午",
+    "hit": [
+     "年柱"
+    ]
+   },
+   {
+    "name": "桃花（咸池）",
+    "by": "年支午",
+    "target": "卯",
+    "hit": []
+   },
+   {
+    "name": "驿马",
+    "by": "年支午",
+    "target": "申",
+    "hit": []
+   }
+  ],
+  "relations": [
+   "三合火局（寅午戌）",
+   "拱火方（巳午）"
+  ],
+  "yun": {
+   "startText": "6年5个月10天",
+   "startSolar": "2033-03-29"
+  },
+  "dayun": [
+   {
+    "no": 1,
+    "ganZhi": "己亥",
+    "ganShishen": "伤官",
+    "zhiWx": "水",
+    "startAge": 8,
+    "endAge": 17,
+    "startYear": 2033,
+    "endYear": 2042,
+    "span": "2033–2043"
+   },
+   {
+    "no": 2,
+    "ganZhi": "庚子",
+    "ganShishen": "偏财",
+    "zhiWx": "水",
+    "startAge": 18,
+    "endAge": 27,
+    "startYear": 2043,
+    "endYear": 2052,
+    "span": "2043–2053"
+   },
+   {
+    "no": 3,
+    "ganZhi": "辛丑",
+    "ganShishen": "正财",
+    "zhiWx": "土",
+    "startAge": 28,
+    "endAge": 37,
+    "startYear": 2053,
+    "endYear": 2062,
+    "span": "2053–2063"
+   },
+   {
+    "no": 4,
+    "ganZhi": "壬寅",
+    "ganShishen": "七杀",
+    "zhiWx": "木",
+    "startAge": 38,
+    "endAge": 47,
+    "startYear": 2063,
+    "endYear": 2072,
+    "span": "2063–2073"
+   },
+   {
+    "no": 5,
+    "ganZhi": "癸卯",
+    "ganShishen": "正官",
+    "zhiWx": "木",
+    "startAge": 48,
+    "endAge": 57,
+    "startYear": 2073,
+    "endYear": 2082,
+    "span": "2073–2083"
+   },
+   {
+    "no": 6,
+    "ganZhi": "甲辰",
+    "ganShishen": "偏印",
+    "zhiWx": "土",
+    "startAge": 58,
+    "endAge": 67,
+    "startYear": 2083,
+    "endYear": 2092,
+    "span": "2083–2093"
+   },
+   {
+    "no": 7,
+    "ganZhi": "乙巳",
+    "ganShishen": "正印",
+    "zhiWx": "火",
+    "startAge": 68,
+    "endAge": 77,
+    "startYear": 2093,
+    "endYear": 2102,
+    "span": "2093–2103"
+   },
+   {
+    "no": 8,
+    "ganZhi": "丙午",
+    "ganShishen": "比肩",
+    "zhiWx": "火",
+    "startAge": 78,
+    "endAge": 87,
+    "startYear": 2103,
+    "endYear": 2112,
+    "span": "2103–2113"
+   }
+  ],
+  "alignment": [
+   {
+    "decade": "一限",
+    "decadePalace": "命宫",
+    "decadeYears": "2027-2036",
+    "dayun": [
+     {
+      "ganZhi": "己亥",
+      "span": "2033–2043",
+      "ganShishen": "伤官"
+     }
+    ]
+   },
+   {
+    "decade": "二限",
+    "decadePalace": "父母",
+    "decadeYears": "2037-2046",
+    "dayun": [
+     {
+      "ganZhi": "己亥",
+      "span": "2033–2043",
+      "ganShishen": "伤官"
+     },
+     {
+      "ganZhi": "庚子",
+      "span": "2043–2053",
+      "ganShishen": "偏财"
+     }
+    ]
+   },
+   {
+    "decade": "三限",
+    "decadePalace": "福德",
+    "decadeYears": "2047-2056",
+    "dayun": [
+     {
+      "ganZhi": "庚子",
+      "span": "2043–2053",
+      "ganShishen": "偏财"
+     },
+     {
+      "ganZhi": "辛丑",
+      "span": "2053–2063",
+      "ganShishen": "正财"
+     }
+    ]
+   },
+   {
+    "decade": "四限",
+    "decadePalace": "田宅",
+    "decadeYears": "2057-2066",
+    "dayun": [
+     {
+      "ganZhi": "辛丑",
+      "span": "2053–2063",
+      "ganShishen": "正财"
+     },
+     {
+      "ganZhi": "壬寅",
+      "span": "2063–2073",
+      "ganShishen": "七杀"
+     }
+    ]
+   },
+   {
+    "decade": "五限",
+    "decadePalace": "官禄",
+    "decadeYears": "2067-2076",
+    "dayun": [
+     {
+      "ganZhi": "壬寅",
+      "span": "2063–2073",
+      "ganShishen": "七杀"
+     },
+     {
+      "ganZhi": "癸卯",
+      "span": "2073–2083",
+      "ganShishen": "正官"
+     }
+    ]
+   },
+   {
+    "decade": "六限",
+    "decadePalace": "仆役",
+    "decadeYears": "2077-2086",
+    "dayun": [
+     {
+      "ganZhi": "癸卯",
+      "span": "2073–2083",
+      "ganShishen": "正官"
+     },
+     {
+      "ganZhi": "甲辰",
+      "span": "2083–2093",
+      "ganShishen": "偏印"
+     }
+    ]
+   },
+   {
+    "decade": "七限",
+    "decadePalace": "迁移",
+    "decadeYears": "2087-2096",
+    "dayun": [
+     {
+      "ganZhi": "甲辰",
+      "span": "2083–2093",
+      "ganShishen": "偏印"
+     },
+     {
+      "ganZhi": "乙巳",
+      "span": "2093–2103",
+      "ganShishen": "正印"
+     }
+    ]
+   },
+   {
+    "decade": "八限",
+    "decadePalace": "疾厄",
+    "decadeYears": "2097-2106",
+    "dayun": [
+     {
+      "ganZhi": "乙巳",
+      "span": "2093–2103",
+      "ganShishen": "正印"
+     },
+     {
+      "ganZhi": "丙午",
+      "span": "2103–2113",
+      "ganShishen": "比肩"
+     }
+    ]
+   }
+  ]
+ },
+ "palaces": [
+  {
+   "index": 0,
+   "name": "子女",
+   "stem": "庚",
+   "branch": "寅",
+   "isBodyPalace": false,
+   "major": [
+    {
+     "name": "武曲",
+     "brightness": "得",
+     "mutagen": ""
+    },
+    {
+     "name": "天相",
+     "brightness": "庙",
+     "mutagen": ""
+    }
+   ],
+   "majorText": "武曲·得、天相·庙",
+   "minorText": "右弼",
+   "adjectiveText": "天月、旬空、蜚廉",
+   "decadal": {
+    "range": [
+     92,
+     101
+    ],
+    "stem": "庚",
+    "branch": "寅"
+   },
+   "ages": [
+    11,
+    23,
+    35,
+    47,
+    59,
+    71,
+    83,
+    95,
+    107,
+    119
+   ]
+  },
+  {
+   "index": 1,
+   "name": "夫妻",
+   "stem": "辛",
+   "branch": "卯",
+   "isBodyPalace": true,
+   "major": [
+    {
+     "name": "太阳",
+     "brightness": "庙",
+     "mutagen": ""
+    },
+    {
+     "name": "天梁",
+     "brightness": "庙",
+     "mutagen": ""
+    }
+   ],
+   "majorText": "太阳·庙、天梁·庙",
+   "minorText": "",
+   "adjectiveText": "天喜、咸池、天德",
+   "decadal": {
+    "range": [
+     102,
+     111
+    ],
+    "stem": "辛",
+    "branch": "卯"
+   },
+   "ages": [
+    12,
+    24,
+    36,
+    48,
+    60,
+    72,
+    84,
+    96,
+    108,
+    120
+   ]
+  },
+  {
+   "index": 2,
+   "name": "兄弟",
+   "stem": "壬",
+   "branch": "辰",
+   "isBodyPalace": false,
+   "major": [
+    {
+     "name": "七杀",
+     "brightness": "庙",
+     "mutagen": ""
+    }
+   ],
+   "majorText": "七杀·庙",
+   "minorText": "地劫、陀罗",
+   "adjectiveText": "解神、凤阁、截路、寡宿、年解",
+   "decadal": {
+    "range": [
+     112,
+     121
+    ],
+    "stem": "壬",
+    "branch": "辰"
+   },
+   "ages": [
+    1,
+    13,
+    25,
+    37,
+    49,
+    61,
+    73,
+    85,
+    97,
+    109
+   ]
+  },
+  {
+   "index": 3,
+   "name": "命宫",
+   "stem": "癸",
+   "branch": "巳",
+   "isBodyPalace": false,
+   "major": [
+    {
+     "name": "天机",
+     "brightness": "平",
+     "mutagen": "权"
+    }
+   ],
+   "majorText": "天机·平",
+   "minorText": "文昌、禄存",
+   "adjectiveText": "八座、天贵、天巫、天官、空亡、破碎、天刑",
+   "decadal": {
+    "range": [
+     2,
+     11
+    ],
+    "stem": "癸",
+    "branch": "巳"
+   },
+   "ages": [
+    2,
+    14,
+    26,
+    38,
+    50,
+    62,
+    74,
+    86,
+    98,
+    110
+   ]
+  },
+  {
+   "index": 4,
+   "name": "父母",
+   "stem": "甲",
+   "branch": "午",
+   "isBodyPalace": false,
+   "major": [
+    {
+     "name": "紫微",
+     "brightness": "庙",
+     "mutagen": ""
+    }
+   ],
+   "majorText": "紫微·庙",
+   "minorText": "地空、火星、擎羊",
+   "adjectiveText": "",
+   "decadal": {
+    "range": [
+     12,
+     21
+    ],
+    "stem": "甲",
+    "branch": "午"
+   },
+   "ages": [
+    3,
+    15,
+    27,
+    39,
+    51,
+    63,
+    75,
+    87,
+    99,
+    111
+   ]
+  },
+  {
+   "index": 5,
+   "name": "福德",
+   "stem": "乙",
+   "branch": "未",
+   "isBodyPalace": false,
+   "major": [],
+   "majorText": "空宫",
+   "minorText": "",
+   "adjectiveText": "封诰、天空",
+   "decadal": {
+    "range": [
+     22,
+     31
+    ],
+    "stem": "乙",
+    "branch": "未"
+   },
+   "ages": [
+    4,
+    16,
+    28,
+    40,
+    52,
+    64,
+    76,
+    88,
+    100,
+    112
+   ]
+  },
+  {
+   "index": 6,
+   "name": "田宅",
+   "stem": "丙",
+   "branch": "申",
+   "isBodyPalace": false,
+   "major": [
+    {
+     "name": "破军",
+     "brightness": "得",
+     "mutagen": ""
+    }
+   ],
+   "majorText": "破军·得",
+   "minorText": "天马、铃星",
+   "adjectiveText": "孤辰",
+   "decadal": {
+    "range": [
+     32,
+     41
+    ],
+    "stem": "丙",
+    "branch": "申"
+   },
+   "ages": [
+    5,
+    17,
+    29,
+    41,
+    53,
+    65,
+    77,
+    89,
+    101,
+    113
+   ]
+  },
+  {
+   "index": 7,
+   "name": "官禄",
+   "stem": "丁",
+   "branch": "酉",
+   "isBodyPalace": false,
+   "major": [],
+   "majorText": "空宫",
+   "minorText": "文曲、天钺",
+   "adjectiveText": "红鸾、天姚、三台、天寿",
+   "decadal": {
+    "range": [
+     42,
+     51
+    ],
+    "stem": "丁",
+    "branch": "酉"
+   },
+   "ages": [
+    6,
+    18,
+    30,
+    42,
+    54,
+    66,
+    78,
+    90,
+    102,
+    114
+   ]
+  },
+  {
+   "index": 8,
+   "name": "仆役",
+   "stem": "戊",
+   "branch": "戌",
+   "isBodyPalace": false,
+   "major": [
+    {
+     "name": "廉贞",
+     "brightness": "利",
+     "mutagen": "忌"
+    },
+    {
+     "name": "天府",
+     "brightness": "庙",
+     "mutagen": ""
+    }
+   ],
+   "majorText": "廉贞·利、天府·庙",
+   "minorText": "",
+   "adjectiveText": "龙池、华盖、阴煞、天伤",
+   "decadal": {
+    "range": [
+     52,
+     61
+    ],
+    "stem": "戊",
+    "branch": "戌"
+   },
+   "ages": [
+    7,
+    19,
+    31,
+    43,
+    55,
+    67,
+    79,
+    91,
+    103,
+    115
+   ]
+  },
+  {
+   "index": 9,
+   "name": "迁移",
+   "stem": "己",
+   "branch": "亥",
+   "isBodyPalace": false,
+   "major": [
+    {
+     "name": "太阴",
+     "brightness": "庙",
+     "mutagen": ""
+    }
+   ],
+   "majorText": "太阴·庙",
+   "minorText": "天魁",
+   "adjectiveText": "天才、台辅、月德",
+   "decadal": {
+    "range": [
+     62,
+     71
+    ],
+    "stem": "己",
+    "branch": "亥"
+   },
+   "ages": [
+    8,
+    20,
+    32,
+    44,
+    56,
+    68,
+    80,
+    92,
+    104,
+    116
+   ]
+  },
+  {
+   "index": 10,
+   "name": "疾厄",
+   "stem": "庚",
+   "branch": "子",
+   "isBodyPalace": false,
+   "major": [
+    {
+     "name": "贪狼",
+     "brightness": "旺",
+     "mutagen": ""
+    }
+   ],
+   "majorText": "贪狼·旺",
+   "minorText": "左辅",
+   "adjectiveText": "天福、天厨、天哭、天虚、天使",
+   "decadal": {
+    "range": [
+     72,
+     81
+    ],
+    "stem": "庚",
+    "branch": "子"
+   },
+   "ages": [
+    9,
+    21,
+    33,
+    45,
+    57,
+    69,
+    81,
+    93,
+    105,
+    117
+   ]
+  },
+  {
+   "index": 11,
+   "name": "财帛",
+   "stem": "辛",
+   "branch": "丑",
+   "isBodyPalace": false,
+   "major": [
+    {
+     "name": "天同",
+     "brightness": "不",
+     "mutagen": "禄"
+    },
+    {
+     "name": "巨门",
+     "brightness": "不",
+     "mutagen": ""
+    }
+   ],
+   "majorText": "天同·不、巨门·不",
+   "minorText": "",
+   "adjectiveText": "恩光",
+   "decadal": {
+    "range": [
+     82,
+     91
+    ],
+    "stem": "辛",
+    "branch": "丑"
+   },
+   "ages": [
+    10,
+    22,
+    34,
+    46,
+    58,
+    70,
+    82,
+    94,
+    106,
+    118
+   ]
+  }
+ ],
+ "decades": [
+  {
+   "no": 1,
+   "noCn": "一",
+   "palace": "命宫",
+   "branch": "巳",
+   "stem": "癸",
+   "range": [
+    2,
+    11
+   ],
+   "startYear": 2027,
+   "endYear": 2036,
+   "sihua": {
+    "禄": "破军",
+    "权": "巨门",
+    "科": "太阴",
+    "忌": "贪狼"
+   },
+   "majorText": "天机·平",
+   "minorText": "文昌、禄存",
+   "adjectiveText": "八座、天贵、天巫、天官、空亡、破碎、天刑",
+   "stemBranch": "癸巳"
+  },
+  {
+   "no": 2,
+   "noCn": "二",
+   "palace": "父母",
+   "branch": "午",
+   "stem": "甲",
+   "range": [
+    12,
+    21
+   ],
+   "startYear": 2037,
+   "endYear": 2046,
+   "sihua": {
+    "禄": "廉贞",
+    "权": "破军",
+    "科": "武曲",
+    "忌": "太阳"
+   },
+   "majorText": "紫微·庙",
+   "minorText": "地空、火星、擎羊",
+   "adjectiveText": "",
+   "stemBranch": "甲午"
+  },
+  {
+   "no": 3,
+   "noCn": "三",
+   "palace": "福德",
+   "branch": "未",
+   "stem": "乙",
+   "range": [
+    22,
+    31
+   ],
+   "startYear": 2047,
+   "endYear": 2056,
+   "sihua": {
+    "禄": "天机",
+    "权": "天梁",
+    "科": "紫微",
+    "忌": "太阴"
+   },
+   "majorText": "空宫",
+   "minorText": "",
+   "adjectiveText": "封诰、天空",
+   "stemBranch": "乙未"
+  },
+  {
+   "no": 4,
+   "noCn": "四",
+   "palace": "田宅",
+   "branch": "申",
+   "stem": "丙",
+   "range": [
+    32,
+    41
+   ],
+   "startYear": 2057,
+   "endYear": 2066,
+   "sihua": {
+    "禄": "天同",
+    "权": "天机",
+    "科": "文昌",
+    "忌": "廉贞"
+   },
+   "majorText": "破军·得",
+   "minorText": "天马、铃星",
+   "adjectiveText": "孤辰",
+   "stemBranch": "丙申"
+  },
+  {
+   "no": 5,
+   "noCn": "五",
+   "palace": "官禄",
+   "branch": "酉",
+   "stem": "丁",
+   "range": [
+    42,
+    51
+   ],
+   "startYear": 2067,
+   "endYear": 2076,
+   "sihua": {
+    "禄": "太阴",
+    "权": "天同",
+    "科": "天机",
+    "忌": "巨门"
+   },
+   "majorText": "空宫",
+   "minorText": "文曲、天钺",
+   "adjectiveText": "红鸾、天姚、三台、天寿",
+   "stemBranch": "丁酉"
+  },
+  {
+   "no": 6,
+   "noCn": "六",
+   "palace": "仆役",
+   "branch": "戌",
+   "stem": "戊",
+   "range": [
+    52,
+    61
+   ],
+   "startYear": 2077,
+   "endYear": 2086,
+   "sihua": {
+    "禄": "贪狼",
+    "权": "太阴",
+    "科": "右弼",
+    "忌": "天机"
+   },
+   "majorText": "廉贞·利、天府·庙",
+   "minorText": "",
+   "adjectiveText": "龙池、华盖、阴煞、天伤",
+   "stemBranch": "戊戌"
+  },
+  {
+   "no": 7,
+   "noCn": "七",
+   "palace": "迁移",
+   "branch": "亥",
+   "stem": "己",
+   "range": [
+    62,
+    71
+   ],
+   "startYear": 2087,
+   "endYear": 2096,
+   "sihua": {
+    "禄": "武曲",
+    "权": "贪狼",
+    "科": "天梁",
+    "忌": "文曲"
+   },
+   "majorText": "太阴·庙",
+   "minorText": "天魁",
+   "adjectiveText": "天才、台辅、月德",
+   "stemBranch": "己亥"
+  },
+  {
+   "no": 8,
+   "noCn": "八",
+   "palace": "疾厄",
+   "branch": "子",
+   "stem": "庚",
+   "range": [
+    72,
+    81
+   ],
+   "startYear": 2097,
+   "endYear": 2106,
+   "sihua": {
+    "禄": "太阳",
+    "权": "武曲",
+    "科": "太阴",
+    "忌": "天同"
+   },
+   "majorText": "贪狼·旺",
+   "minorText": "左辅",
+   "adjectiveText": "天福、天厨、天哭、天虚、天使",
+   "stemBranch": "庚子"
+  },
+  {
+   "no": 9,
+   "noCn": "九",
+   "palace": "财帛",
+   "branch": "丑",
+   "stem": "辛",
+   "range": [
+    82,
+    91
+   ],
+   "startYear": 2107,
+   "endYear": 2116,
+   "sihua": {
+    "禄": "巨门",
+    "权": "太阳",
+    "科": "文曲",
+    "忌": "文昌"
+   },
+   "majorText": "天同·不、巨门·不",
+   "minorText": "",
+   "adjectiveText": "恩光",
+   "stemBranch": "辛丑"
+  },
+  {
+   "no": 10,
+   "noCn": "十",
+   "palace": "子女",
+   "branch": "寅",
+   "stem": "庚",
+   "range": [
+    92,
+    101
+   ],
+   "startYear": 2117,
+   "endYear": 2126,
+   "sihua": {
+    "禄": "太阳",
+    "权": "武曲",
+    "科": "太阴",
+    "忌": "天同"
+   },
+   "majorText": "武曲·得、天相·庙",
+   "minorText": "右弼",
+   "adjectiveText": "天月、旬空、蜚廉",
+   "stemBranch": "庚寅"
+  },
+  {
+   "no": 11,
+   "noCn": "11",
+   "palace": "夫妻",
+   "branch": "卯",
+   "stem": "辛",
+   "range": [
+    102,
+    111
+   ],
+   "startYear": 2127,
+   "endYear": 2136,
+   "sihua": {
+    "禄": "巨门",
+    "权": "太阳",
+    "科": "文曲",
+    "忌": "文昌"
+   },
+   "majorText": "太阳·庙、天梁·庙",
+   "minorText": "",
+   "adjectiveText": "天喜、咸池、天德",
+   "stemBranch": "辛卯"
+  },
+  {
+   "no": 12,
+   "noCn": "12",
+   "palace": "兄弟",
+   "branch": "辰",
+   "stem": "壬",
+   "range": [
+    112,
+    121
+   ],
+   "startYear": 2137,
+   "endYear": 2146,
+   "sihua": {
+    "禄": "天梁",
+    "权": "紫微",
+    "科": "左辅",
+    "忌": "武曲"
+   },
+   "majorText": "七杀·庙",
+   "minorText": "地劫、陀罗",
+   "adjectiveText": "解神、凤阁、截路、寡宿、年解",
+   "stemBranch": "壬辰"
+  }
+ ],
+ "liunian": [
+  {
+   "year": 2027,
+   "age": 2,
+   "ganZhi": "丁未",
+   "liunianPalace": "福德",
+   "liunianBranch": "未",
+   "xiaoxianPalace": "命宫",
+   "sihua": {
+    "禄": "太阴",
+    "权": "天同",
+    "科": "天机",
+    "忌": "巨门"
+   },
+   "ganShishen": "劫财"
+  },
+  {
+   "year": 2028,
+   "age": 3,
+   "ganZhi": "戊申",
+   "liunianPalace": "田宅",
+   "liunianBranch": "申",
+   "xiaoxianPalace": "父母",
+   "sihua": {
+    "禄": "贪狼",
+    "权": "太阴",
+    "科": "右弼",
+    "忌": "天机"
+   },
+   "ganShishen": "食神"
+  },
+  {
+   "year": 2029,
+   "age": 4,
+   "ganZhi": "己酉",
+   "liunianPalace": "官禄",
+   "liunianBranch": "酉",
+   "xiaoxianPalace": "福德",
+   "sihua": {
+    "禄": "武曲",
+    "权": "贪狼",
+    "科": "天梁",
+    "忌": "文曲"
+   },
+   "ganShishen": "伤官"
+  },
+  {
+   "year": 2030,
+   "age": 5,
+   "ganZhi": "庚戌",
+   "liunianPalace": "仆役",
+   "liunianBranch": "戌",
+   "xiaoxianPalace": "田宅",
+   "sihua": {
+    "禄": "太阳",
+    "权": "武曲",
+    "科": "太阴",
+    "忌": "天同"
+   },
+   "ganShishen": "偏财"
+  },
+  {
+   "year": 2031,
+   "age": 6,
+   "ganZhi": "辛亥",
+   "liunianPalace": "迁移",
+   "liunianBranch": "亥",
+   "xiaoxianPalace": "官禄",
+   "sihua": {
+    "禄": "巨门",
+    "权": "太阳",
+    "科": "文曲",
+    "忌": "文昌"
+   },
+   "ganShishen": "正财"
+  },
+  {
+   "year": 2032,
+   "age": 7,
+   "ganZhi": "壬子",
+   "liunianPalace": "疾厄",
+   "liunianBranch": "子",
+   "xiaoxianPalace": "仆役",
+   "sihua": {
+    "禄": "天梁",
+    "权": "紫微",
+    "科": "左辅",
+    "忌": "武曲"
+   },
+   "ganShishen": "七杀"
+  },
+  {
+   "year": 2033,
+   "age": 8,
+   "ganZhi": "癸丑",
+   "liunianPalace": "财帛",
+   "liunianBranch": "丑",
+   "xiaoxianPalace": "迁移",
+   "sihua": {
+    "禄": "破军",
+    "权": "巨门",
+    "科": "太阴",
+    "忌": "贪狼"
+   },
+   "ganShishen": "正官"
+  },
+  {
+   "year": 2034,
+   "age": 9,
+   "ganZhi": "甲寅",
+   "liunianPalace": "子女",
+   "liunianBranch": "寅",
+   "xiaoxianPalace": "疾厄",
+   "sihua": {
+    "禄": "廉贞",
+    "权": "破军",
+    "科": "武曲",
+    "忌": "太阳"
+   },
+   "ganShishen": "偏印"
+  },
+  {
+   "year": 2035,
+   "age": 10,
+   "ganZhi": "乙卯",
+   "liunianPalace": "夫妻",
+   "liunianBranch": "卯",
+   "xiaoxianPalace": "财帛",
+   "sihua": {
+    "禄": "天机",
+    "权": "天梁",
+    "科": "紫微",
+    "忌": "太阴"
+   },
+   "ganShishen": "正印"
+  },
+  {
+   "year": 2036,
+   "age": 11,
+   "ganZhi": "丙辰",
+   "liunianPalace": "兄弟",
+   "liunianBranch": "辰",
+   "xiaoxianPalace": "子女",
+   "sihua": {
+    "禄": "天同",
+    "权": "天机",
+    "科": "文昌",
+    "忌": "廉贞"
+   },
+   "ganShishen": "比肩"
+  },
+  {
+   "year": 2037,
+   "age": 12,
+   "ganZhi": "丁巳",
+   "liunianPalace": "命宫",
+   "liunianBranch": "巳",
+   "xiaoxianPalace": "夫妻",
+   "sihua": {
+    "禄": "太阴",
+    "权": "天同",
+    "科": "天机",
+    "忌": "巨门"
+   },
+   "ganShishen": "劫财"
+  },
+  {
+   "year": 2038,
+   "age": 13,
+   "ganZhi": "戊午",
+   "liunianPalace": "父母",
+   "liunianBranch": "午",
+   "xiaoxianPalace": "兄弟",
+   "sihua": {
+    "禄": "贪狼",
+    "权": "太阴",
+    "科": "右弼",
+    "忌": "天机"
+   },
+   "ganShishen": "食神"
+  },
+  {
+   "year": 2039,
+   "age": 14,
+   "ganZhi": "己未",
+   "liunianPalace": "福德",
+   "liunianBranch": "未",
+   "xiaoxianPalace": "命宫",
+   "sihua": {
+    "禄": "武曲",
+    "权": "贪狼",
+    "科": "天梁",
+    "忌": "文曲"
+   },
+   "ganShishen": "伤官"
+  },
+  {
+   "year": 2040,
+   "age": 15,
+   "ganZhi": "庚申",
+   "liunianPalace": "田宅",
+   "liunianBranch": "申",
+   "xiaoxianPalace": "父母",
+   "sihua": {
+    "禄": "太阳",
+    "权": "武曲",
+    "科": "太阴",
+    "忌": "天同"
+   },
+   "ganShishen": "偏财"
+  },
+  {
+   "year": 2041,
+   "age": 16,
+   "ganZhi": "辛酉",
+   "liunianPalace": "官禄",
+   "liunianBranch": "酉",
+   "xiaoxianPalace": "福德",
+   "sihua": {
+    "禄": "巨门",
+    "权": "太阳",
+    "科": "文曲",
+    "忌": "文昌"
+   },
+   "ganShishen": "正财"
+  },
+  {
+   "year": 2042,
+   "age": 17,
+   "ganZhi": "壬戌",
+   "liunianPalace": "仆役",
+   "liunianBranch": "戌",
+   "xiaoxianPalace": "田宅",
+   "sihua": {
+    "禄": "天梁",
+    "权": "紫微",
+    "科": "左辅",
+    "忌": "武曲"
+   },
+   "ganShishen": "七杀"
+  },
+  {
+   "year": 2043,
+   "age": 18,
+   "ganZhi": "癸亥",
+   "liunianPalace": "迁移",
+   "liunianBranch": "亥",
+   "xiaoxianPalace": "官禄",
+   "sihua": {
+    "禄": "破军",
+    "权": "巨门",
+    "科": "太阴",
+    "忌": "贪狼"
+   },
+   "ganShishen": "正官"
+  },
+  {
+   "year": 2044,
+   "age": 19,
+   "ganZhi": "甲子",
+   "liunianPalace": "疾厄",
+   "liunianBranch": "子",
+   "xiaoxianPalace": "仆役",
+   "sihua": {
+    "禄": "廉贞",
+    "权": "破军",
+    "科": "武曲",
+    "忌": "太阳"
+   },
+   "ganShishen": "偏印"
+  },
+  {
+   "year": 2045,
+   "age": 20,
+   "ganZhi": "乙丑",
+   "liunianPalace": "财帛",
+   "liunianBranch": "丑",
+   "xiaoxianPalace": "迁移",
+   "sihua": {
+    "禄": "天机",
+    "权": "天梁",
+    "科": "紫微",
+    "忌": "太阴"
+   },
+   "ganShishen": "正印"
+  },
+  {
+   "year": 2046,
+   "age": 21,
+   "ganZhi": "丙寅",
+   "liunianPalace": "子女",
+   "liunianBranch": "寅",
+   "xiaoxianPalace": "疾厄",
+   "sihua": {
+    "禄": "天同",
+    "权": "天机",
+    "科": "文昌",
+    "忌": "廉贞"
+   },
+   "ganShishen": "比肩"
+  },
+  {
+   "year": 2047,
+   "age": 22,
+   "ganZhi": "丁卯",
+   "liunianPalace": "夫妻",
+   "liunianBranch": "卯",
+   "xiaoxianPalace": "财帛",
+   "sihua": {
+    "禄": "太阴",
+    "权": "天同",
+    "科": "天机",
+    "忌": "巨门"
+   },
+   "ganShishen": "劫财"
+  },
+  {
+   "year": 2048,
+   "age": 23,
+   "ganZhi": "戊辰",
+   "liunianPalace": "兄弟",
+   "liunianBranch": "辰",
+   "xiaoxianPalace": "子女",
+   "sihua": {
+    "禄": "贪狼",
+    "权": "太阴",
+    "科": "右弼",
+    "忌": "天机"
+   },
+   "ganShishen": "食神"
+  },
+  {
+   "year": 2049,
+   "age": 24,
+   "ganZhi": "己巳",
+   "liunianPalace": "命宫",
+   "liunianBranch": "巳",
+   "xiaoxianPalace": "夫妻",
+   "sihua": {
+    "禄": "武曲",
+    "权": "贪狼",
+    "科": "天梁",
+    "忌": "文曲"
+   },
+   "ganShishen": "伤官"
+  },
+  {
+   "year": 2050,
+   "age": 25,
+   "ganZhi": "庚午",
+   "liunianPalace": "父母",
+   "liunianBranch": "午",
+   "xiaoxianPalace": "兄弟",
+   "sihua": {
+    "禄": "太阳",
+    "权": "武曲",
+    "科": "太阴",
+    "忌": "天同"
+   },
+   "ganShishen": "偏财"
+  },
+  {
+   "year": 2051,
+   "age": 26,
+   "ganZhi": "辛未",
+   "liunianPalace": "福德",
+   "liunianBranch": "未",
+   "xiaoxianPalace": "命宫",
+   "sihua": {
+    "禄": "巨门",
+    "权": "太阳",
+    "科": "文曲",
+    "忌": "文昌"
+   },
+   "ganShishen": "正财"
+  },
+  {
+   "year": 2052,
+   "age": 27,
+   "ganZhi": "壬申",
+   "liunianPalace": "田宅",
+   "liunianBranch": "申",
+   "xiaoxianPalace": "父母",
+   "sihua": {
+    "禄": "天梁",
+    "权": "紫微",
+    "科": "左辅",
+    "忌": "武曲"
+   },
+   "ganShishen": "七杀"
+  },
+  {
+   "year": 2053,
+   "age": 28,
+   "ganZhi": "癸酉",
+   "liunianPalace": "官禄",
+   "liunianBranch": "酉",
+   "xiaoxianPalace": "福德",
+   "sihua": {
+    "禄": "破军",
+    "权": "巨门",
+    "科": "太阴",
+    "忌": "贪狼"
+   },
+   "ganShishen": "正官"
+  },
+  {
+   "year": 2054,
+   "age": 29,
+   "ganZhi": "甲戌",
+   "liunianPalace": "仆役",
+   "liunianBranch": "戌",
+   "xiaoxianPalace": "田宅",
+   "sihua": {
+    "禄": "廉贞",
+    "权": "破军",
+    "科": "武曲",
+    "忌": "太阳"
+   },
+   "ganShishen": "偏印"
+  },
+  {
+   "year": 2055,
+   "age": 30,
+   "ganZhi": "乙亥",
+   "liunianPalace": "迁移",
+   "liunianBranch": "亥",
+   "xiaoxianPalace": "官禄",
+   "sihua": {
+    "禄": "天机",
+    "权": "天梁",
+    "科": "紫微",
+    "忌": "太阴"
+   },
+   "ganShishen": "正印"
+  },
+  {
+   "year": 2056,
+   "age": 31,
+   "ganZhi": "丙子",
+   "liunianPalace": "疾厄",
+   "liunianBranch": "子",
+   "xiaoxianPalace": "仆役",
+   "sihua": {
+    "禄": "天同",
+    "权": "天机",
+    "科": "文昌",
+    "忌": "廉贞"
+   },
+   "ganShishen": "比肩"
+  },
+  {
+   "year": 2057,
+   "age": 32,
+   "ganZhi": "丁丑",
+   "liunianPalace": "财帛",
+   "liunianBranch": "丑",
+   "xiaoxianPalace": "迁移",
+   "sihua": {
+    "禄": "太阴",
+    "权": "天同",
+    "科": "天机",
+    "忌": "巨门"
+   },
+   "ganShishen": "劫财"
+  },
+  {
+   "year": 2058,
+   "age": 33,
+   "ganZhi": "戊寅",
+   "liunianPalace": "子女",
+   "liunianBranch": "寅",
+   "xiaoxianPalace": "疾厄",
+   "sihua": {
+    "禄": "贪狼",
+    "权": "太阴",
+    "科": "右弼",
+    "忌": "天机"
+   },
+   "ganShishen": "食神"
+  },
+  {
+   "year": 2059,
+   "age": 34,
+   "ganZhi": "己卯",
+   "liunianPalace": "夫妻",
+   "liunianBranch": "卯",
+   "xiaoxianPalace": "财帛",
+   "sihua": {
+    "禄": "武曲",
+    "权": "贪狼",
+    "科": "天梁",
+    "忌": "文曲"
+   },
+   "ganShishen": "伤官"
+  },
+  {
+   "year": 2060,
+   "age": 35,
+   "ganZhi": "庚辰",
+   "liunianPalace": "兄弟",
+   "liunianBranch": "辰",
+   "xiaoxianPalace": "子女",
+   "sihua": {
+    "禄": "太阳",
+    "权": "武曲",
+    "科": "太阴",
+    "忌": "天同"
+   },
+   "ganShishen": "偏财"
+  },
+  {
+   "year": 2061,
+   "age": 36,
+   "ganZhi": "辛巳",
+   "liunianPalace": "命宫",
+   "liunianBranch": "巳",
+   "xiaoxianPalace": "夫妻",
+   "sihua": {
+    "禄": "巨门",
+    "权": "太阳",
+    "科": "文曲",
+    "忌": "文昌"
+   },
+   "ganShishen": "正财"
+  },
+  {
+   "year": 2062,
+   "age": 37,
+   "ganZhi": "壬午",
+   "liunianPalace": "父母",
+   "liunianBranch": "午",
+   "xiaoxianPalace": "兄弟",
+   "sihua": {
+    "禄": "天梁",
+    "权": "紫微",
+    "科": "左辅",
+    "忌": "武曲"
+   },
+   "ganShishen": "七杀"
+  },
+  {
+   "year": 2063,
+   "age": 38,
+   "ganZhi": "癸未",
+   "liunianPalace": "福德",
+   "liunianBranch": "未",
+   "xiaoxianPalace": "命宫",
+   "sihua": {
+    "禄": "破军",
+    "权": "巨门",
+    "科": "太阴",
+    "忌": "贪狼"
+   },
+   "ganShishen": "正官"
+  },
+  {
+   "year": 2064,
+   "age": 39,
+   "ganZhi": "甲申",
+   "liunianPalace": "田宅",
+   "liunianBranch": "申",
+   "xiaoxianPalace": "父母",
+   "sihua": {
+    "禄": "廉贞",
+    "权": "破军",
+    "科": "武曲",
+    "忌": "太阳"
+   },
+   "ganShishen": "偏印"
+  },
+  {
+   "year": 2065,
+   "age": 40,
+   "ganZhi": "乙酉",
+   "liunianPalace": "官禄",
+   "liunianBranch": "酉",
+   "xiaoxianPalace": "福德",
+   "sihua": {
+    "禄": "天机",
+    "权": "天梁",
+    "科": "紫微",
+    "忌": "太阴"
+   },
+   "ganShishen": "正印"
+  },
+  {
+   "year": 2066,
+   "age": 41,
+   "ganZhi": "丙戌",
+   "liunianPalace": "仆役",
+   "liunianBranch": "戌",
+   "xiaoxianPalace": "田宅",
+   "sihua": {
+    "禄": "天同",
+    "权": "天机",
+    "科": "文昌",
+    "忌": "廉贞"
+   },
+   "ganShishen": "比肩"
+  },
+  {
+   "year": 2067,
+   "age": 42,
+   "ganZhi": "丁亥",
+   "liunianPalace": "迁移",
+   "liunianBranch": "亥",
+   "xiaoxianPalace": "官禄",
+   "sihua": {
+    "禄": "太阴",
+    "权": "天同",
+    "科": "天机",
+    "忌": "巨门"
+   },
+   "ganShishen": "劫财"
+  },
+  {
+   "year": 2068,
+   "age": 43,
+   "ganZhi": "戊子",
+   "liunianPalace": "疾厄",
+   "liunianBranch": "子",
+   "xiaoxianPalace": "仆役",
+   "sihua": {
+    "禄": "贪狼",
+    "权": "太阴",
+    "科": "右弼",
+    "忌": "天机"
+   },
+   "ganShishen": "食神"
+  },
+  {
+   "year": 2069,
+   "age": 44,
+   "ganZhi": "己丑",
+   "liunianPalace": "财帛",
+   "liunianBranch": "丑",
+   "xiaoxianPalace": "迁移",
+   "sihua": {
+    "禄": "武曲",
+    "权": "贪狼",
+    "科": "天梁",
+    "忌": "文曲"
+   },
+   "ganShishen": "伤官"
+  },
+  {
+   "year": 2070,
+   "age": 45,
+   "ganZhi": "庚寅",
+   "liunianPalace": "子女",
+   "liunianBranch": "寅",
+   "xiaoxianPalace": "疾厄",
+   "sihua": {
+    "禄": "太阳",
+    "权": "武曲",
+    "科": "太阴",
+    "忌": "天同"
+   },
+   "ganShishen": "偏财"
+  },
+  {
+   "year": 2071,
+   "age": 46,
+   "ganZhi": "辛卯",
+   "liunianPalace": "夫妻",
+   "liunianBranch": "卯",
+   "xiaoxianPalace": "财帛",
+   "sihua": {
+    "禄": "巨门",
+    "权": "太阳",
+    "科": "文曲",
+    "忌": "文昌"
+   },
+   "ganShishen": "正财"
+  },
+  {
+   "year": 2072,
+   "age": 47,
+   "ganZhi": "壬辰",
+   "liunianPalace": "兄弟",
+   "liunianBranch": "辰",
+   "xiaoxianPalace": "子女",
+   "sihua": {
+    "禄": "天梁",
+    "权": "紫微",
+    "科": "左辅",
+    "忌": "武曲"
+   },
+   "ganShishen": "七杀"
+  },
+  {
+   "year": 2073,
+   "age": 48,
+   "ganZhi": "癸巳",
+   "liunianPalace": "命宫",
+   "liunianBranch": "巳",
+   "xiaoxianPalace": "夫妻",
+   "sihua": {
+    "禄": "破军",
+    "权": "巨门",
+    "科": "太阴",
+    "忌": "贪狼"
+   },
+   "ganShishen": "正官"
+  },
+  {
+   "year": 2074,
+   "age": 49,
+   "ganZhi": "甲午",
+   "liunianPalace": "父母",
+   "liunianBranch": "午",
+   "xiaoxianPalace": "兄弟",
+   "sihua": {
+    "禄": "廉贞",
+    "权": "破军",
+    "科": "武曲",
+    "忌": "太阳"
+   },
+   "ganShishen": "偏印"
+  },
+  {
+   "year": 2075,
+   "age": 50,
+   "ganZhi": "乙未",
+   "liunianPalace": "福德",
+   "liunianBranch": "未",
+   "xiaoxianPalace": "命宫",
+   "sihua": {
+    "禄": "天机",
+    "权": "天梁",
+    "科": "紫微",
+    "忌": "太阴"
+   },
+   "ganShishen": "正印"
+  },
+  {
+   "year": 2076,
+   "age": 51,
+   "ganZhi": "丙申",
+   "liunianPalace": "田宅",
+   "liunianBranch": "申",
+   "xiaoxianPalace": "父母",
+   "sihua": {
+    "禄": "天同",
+    "权": "天机",
+    "科": "文昌",
+    "忌": "廉贞"
+   },
+   "ganShishen": "比肩"
+  },
+  {
+   "year": 2077,
+   "age": 52,
+   "ganZhi": "丁酉",
+   "liunianPalace": "官禄",
+   "liunianBranch": "酉",
+   "xiaoxianPalace": "福德",
+   "sihua": {
+    "禄": "太阴",
+    "权": "天同",
+    "科": "天机",
+    "忌": "巨门"
+   },
+   "ganShishen": "劫财"
+  },
+  {
+   "year": 2078,
+   "age": 53,
+   "ganZhi": "戊戌",
+   "liunianPalace": "仆役",
+   "liunianBranch": "戌",
+   "xiaoxianPalace": "田宅",
+   "sihua": {
+    "禄": "贪狼",
+    "权": "太阴",
+    "科": "右弼",
+    "忌": "天机"
+   },
+   "ganShishen": "食神"
+  },
+  {
+   "year": 2079,
+   "age": 54,
+   "ganZhi": "己亥",
+   "liunianPalace": "迁移",
+   "liunianBranch": "亥",
+   "xiaoxianPalace": "官禄",
+   "sihua": {
+    "禄": "武曲",
+    "权": "贪狼",
+    "科": "天梁",
+    "忌": "文曲"
+   },
+   "ganShishen": "伤官"
+  },
+  {
+   "year": 2080,
+   "age": 55,
+   "ganZhi": "庚子",
+   "liunianPalace": "疾厄",
+   "liunianBranch": "子",
+   "xiaoxianPalace": "仆役",
+   "sihua": {
+    "禄": "太阳",
+    "权": "武曲",
+    "科": "太阴",
+    "忌": "天同"
+   },
+   "ganShishen": "偏财"
+  },
+  {
+   "year": 2081,
+   "age": 56,
+   "ganZhi": "辛丑",
+   "liunianPalace": "财帛",
+   "liunianBranch": "丑",
+   "xiaoxianPalace": "迁移",
+   "sihua": {
+    "禄": "巨门",
+    "权": "太阳",
+    "科": "文曲",
+    "忌": "文昌"
+   },
+   "ganShishen": "正财"
+  },
+  {
+   "year": 2082,
+   "age": 57,
+   "ganZhi": "壬寅",
+   "liunianPalace": "子女",
+   "liunianBranch": "寅",
+   "xiaoxianPalace": "疾厄",
+   "sihua": {
+    "禄": "天梁",
+    "权": "紫微",
+    "科": "左辅",
+    "忌": "武曲"
+   },
+   "ganShishen": "七杀"
+  },
+  {
+   "year": 2083,
+   "age": 58,
+   "ganZhi": "癸卯",
+   "liunianPalace": "夫妻",
+   "liunianBranch": "卯",
+   "xiaoxianPalace": "财帛",
+   "sihua": {
+    "禄": "破军",
+    "权": "巨门",
+    "科": "太阴",
+    "忌": "贪狼"
+   },
+   "ganShishen": "正官"
+  },
+  {
+   "year": 2084,
+   "age": 59,
+   "ganZhi": "甲辰",
+   "liunianPalace": "兄弟",
+   "liunianBranch": "辰",
+   "xiaoxianPalace": "子女",
+   "sihua": {
+    "禄": "廉贞",
+    "权": "破军",
+    "科": "武曲",
+    "忌": "太阳"
+   },
+   "ganShishen": "偏印"
+  },
+  {
+   "year": 2085,
+   "age": 60,
+   "ganZhi": "乙巳",
+   "liunianPalace": "命宫",
+   "liunianBranch": "巳",
+   "xiaoxianPalace": "夫妻",
+   "sihua": {
+    "禄": "天机",
+    "权": "天梁",
+    "科": "紫微",
+    "忌": "太阴"
+   },
+   "ganShishen": "正印"
+  },
+  {
+   "year": 2086,
+   "age": 61,
+   "ganZhi": "丙午",
+   "liunianPalace": "父母",
+   "liunianBranch": "午",
+   "xiaoxianPalace": "兄弟",
+   "sihua": {
+    "禄": "天同",
+    "权": "天机",
+    "科": "文昌",
+    "忌": "廉贞"
+   },
+   "ganShishen": "比肩"
+  },
+  {
+   "year": 2087,
+   "age": 62,
+   "ganZhi": "丁未",
+   "liunianPalace": "福德",
+   "liunianBranch": "未",
+   "xiaoxianPalace": "命宫",
+   "sihua": {
+    "禄": "太阴",
+    "权": "天同",
+    "科": "天机",
+    "忌": "巨门"
+   },
+   "ganShishen": "劫财"
+  },
+  {
+   "year": 2088,
+   "age": 63,
+   "ganZhi": "戊申",
+   "liunianPalace": "田宅",
+   "liunianBranch": "申",
+   "xiaoxianPalace": "父母",
+   "sihua": {
+    "禄": "贪狼",
+    "权": "太阴",
+    "科": "右弼",
+    "忌": "天机"
+   },
+   "ganShishen": "食神"
+  },
+  {
+   "year": 2089,
+   "age": 64,
+   "ganZhi": "己酉",
+   "liunianPalace": "官禄",
+   "liunianBranch": "酉",
+   "xiaoxianPalace": "福德",
+   "sihua": {
+    "禄": "武曲",
+    "权": "贪狼",
+    "科": "天梁",
+    "忌": "文曲"
+   },
+   "ganShishen": "伤官"
+  },
+  {
+   "year": 2090,
+   "age": 65,
+   "ganZhi": "庚戌",
+   "liunianPalace": "仆役",
+   "liunianBranch": "戌",
+   "xiaoxianPalace": "田宅",
+   "sihua": {
+    "禄": "太阳",
+    "权": "武曲",
+    "科": "太阴",
+    "忌": "天同"
+   },
+   "ganShishen": "偏财"
+  },
+  {
+   "year": 2091,
+   "age": 66,
+   "ganZhi": "辛亥",
+   "liunianPalace": "迁移",
+   "liunianBranch": "亥",
+   "xiaoxianPalace": "官禄",
+   "sihua": {
+    "禄": "巨门",
+    "权": "太阳",
+    "科": "文曲",
+    "忌": "文昌"
+   },
+   "ganShishen": "正财"
+  },
+  {
+   "year": 2092,
+   "age": 67,
+   "ganZhi": "壬子",
+   "liunianPalace": "疾厄",
+   "liunianBranch": "子",
+   "xiaoxianPalace": "仆役",
+   "sihua": {
+    "禄": "天梁",
+    "权": "紫微",
+    "科": "左辅",
+    "忌": "武曲"
+   },
+   "ganShishen": "七杀"
+  },
+  {
+   "year": 2093,
+   "age": 68,
+   "ganZhi": "癸丑",
+   "liunianPalace": "财帛",
+   "liunianBranch": "丑",
+   "xiaoxianPalace": "迁移",
+   "sihua": {
+    "禄": "破军",
+    "权": "巨门",
+    "科": "太阴",
+    "忌": "贪狼"
+   },
+   "ganShishen": "正官"
+  },
+  {
+   "year": 2094,
+   "age": 69,
+   "ganZhi": "甲寅",
+   "liunianPalace": "子女",
+   "liunianBranch": "寅",
+   "xiaoxianPalace": "疾厄",
+   "sihua": {
+    "禄": "廉贞",
+    "权": "破军",
+    "科": "武曲",
+    "忌": "太阳"
+   },
+   "ganShishen": "偏印"
+  },
+  {
+   "year": 2095,
+   "age": 70,
+   "ganZhi": "乙卯",
+   "liunianPalace": "夫妻",
+   "liunianBranch": "卯",
+   "xiaoxianPalace": "财帛",
+   "sihua": {
+    "禄": "天机",
+    "权": "天梁",
+    "科": "紫微",
+    "忌": "太阴"
+   },
+   "ganShishen": "正印"
+  },
+  {
+   "year": 2096,
+   "age": 71,
+   "ganZhi": "丙辰",
+   "liunianPalace": "兄弟",
+   "liunianBranch": "辰",
+   "xiaoxianPalace": "子女",
+   "sihua": {
+    "禄": "天同",
+    "权": "天机",
+    "科": "文昌",
+    "忌": "廉贞"
+   },
+   "ganShishen": "比肩"
+  },
+  {
+   "year": 2097,
+   "age": 72,
+   "ganZhi": "丁巳",
+   "liunianPalace": "命宫",
+   "liunianBranch": "巳",
+   "xiaoxianPalace": "夫妻",
+   "sihua": {
+    "禄": "太阴",
+    "权": "天同",
+    "科": "天机",
+    "忌": "巨门"
+   },
+   "ganShishen": "劫财"
+  },
+  {
+   "year": 2098,
+   "age": 73,
+   "ganZhi": "戊午",
+   "liunianPalace": "父母",
+   "liunianBranch": "午",
+   "xiaoxianPalace": "兄弟",
+   "sihua": {
+    "禄": "贪狼",
+    "权": "太阴",
+    "科": "右弼",
+    "忌": "天机"
+   },
+   "ganShishen": "食神"
+  },
+  {
+   "year": 2099,
+   "age": 74,
+   "ganZhi": "己未",
+   "liunianPalace": "福德",
+   "liunianBranch": "未",
+   "xiaoxianPalace": "命宫",
+   "sihua": {
+    "禄": "武曲",
+    "权": "贪狼",
+    "科": "天梁",
+    "忌": "文曲"
+   },
+   "ganShishen": "伤官"
+  },
+  {
+   "year": 2100,
+   "age": 75,
+   "ganZhi": "庚申",
+   "liunianPalace": "田宅",
+   "liunianBranch": "申",
+   "xiaoxianPalace": "父母",
+   "sihua": {
+    "禄": "太阳",
+    "权": "武曲",
+    "科": "太阴",
+    "忌": "天同"
+   },
+   "ganShishen": "偏财"
+  },
+  {
+   "year": 2101,
+   "age": 76,
+   "ganZhi": "辛酉",
+   "liunianPalace": "官禄",
+   "liunianBranch": "酉",
+   "xiaoxianPalace": "福德",
+   "sihua": {
+    "禄": "巨门",
+    "权": "太阳",
+    "科": "文曲",
+    "忌": "文昌"
+   },
+   "ganShishen": "正财"
+  },
+  {
+   "year": 2102,
+   "age": 77,
+   "ganZhi": "壬戌",
+   "liunianPalace": "仆役",
+   "liunianBranch": "戌",
+   "xiaoxianPalace": "田宅",
+   "sihua": {
+    "禄": "天梁",
+    "权": "紫微",
+    "科": "左辅",
+    "忌": "武曲"
+   },
+   "ganShishen": "七杀"
+  },
+  {
+   "year": 2103,
+   "age": 78,
+   "ganZhi": "癸亥",
+   "liunianPalace": "迁移",
+   "liunianBranch": "亥",
+   "xiaoxianPalace": "官禄",
+   "sihua": {
+    "禄": "破军",
+    "权": "巨门",
+    "科": "太阴",
+    "忌": "贪狼"
+   },
+   "ganShishen": "正官"
+  },
+  {
+   "year": 2104,
+   "age": 79,
+   "ganZhi": "甲子",
+   "liunianPalace": "疾厄",
+   "liunianBranch": "子",
+   "xiaoxianPalace": "仆役",
+   "sihua": {
+    "禄": "廉贞",
+    "权": "破军",
+    "科": "武曲",
+    "忌": "太阳"
+   },
+   "ganShishen": "偏印"
+  },
+  {
+   "year": 2105,
+   "age": 80,
+   "ganZhi": "乙丑",
+   "liunianPalace": "财帛",
+   "liunianBranch": "丑",
+   "xiaoxianPalace": "迁移",
+   "sihua": {
+    "禄": "天机",
+    "权": "天梁",
+    "科": "紫微",
+    "忌": "太阴"
+   },
+   "ganShishen": "正印"
+  },
+  {
+   "year": 2106,
+   "age": 81,
+   "ganZhi": "丙寅",
+   "liunianPalace": "子女",
+   "liunianBranch": "寅",
+   "xiaoxianPalace": "疾厄",
+   "sihua": {
+    "禄": "天同",
+    "权": "天机",
+    "科": "文昌",
+    "忌": "廉贞"
+   },
+   "ganShishen": "比肩"
+  }
+ ],
+ "selfCheck": {
+  "passed": 2,
+  "total": 2,
+  "items": [
+   {
+    "item": "四柱（iztro vs lunar-javascript）",
+    "ok": true,
+    "detail": "丙午 戊戌 丙寅 癸巳 | 丙午 戊戌 丙寅 癸巳"
+   },
+   {
+    "item": "农历月日（iztro vs lunar-javascript）",
+    "ok": true,
+    "detail": "二〇二六年九月初十 | 二〇二六年九月初十日"
+   }
+  ]
+ },
+ "checksum": "9F5B1",
+ "warnings": []
+}
